@@ -10,7 +10,6 @@ import {
   MDBCollapse,
   MDBNavbarBrand,
 } from "mdb-react-ui-kit";
-//   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useSelector, useDispatch } from "react-redux";
 import { setLogout } from "../redux/features/authSlice";
 import { searchTours } from "../redux/features/tourSlice";
@@ -49,10 +48,8 @@ const handleSubmit = (e) => {
 
 
   return (
-    // <MDBNavbar fixed="top" expand="lg" style={{ backgroundColor: "#f0e6ea" }}>
     <MDBNavbar fixed="top" expand="lg" style={{ backgroundColor: "rgb(65, 70, 101)" }}>
         <MDBContainer>
-            {/* <MDBNavbarBrand href="/"style={{ color: "#606080", fontWeight: "600", fontSize: "22px" }}> */}
             <MDBNavbarBrand href="/"style={{ color: "black", fontWeight: "600", fontSize: "22px" }}>
                 Tour Pad
             </MDBNavbarBrand>
@@ -84,7 +81,6 @@ const handleSubmit = (e) => {
                             <MDBNavbarItem>
                                 <MDBNavbarLink href="/addTour">
                                     <p className="header-text"id="headicon">
-                                    {/* <i class="fas fa-user-edit fa-2x"></i> Add Tour */}
                                     <i className="fas fa-pen-square"></i> Add Tour
                                     </p>
                                 </MDBNavbarLink>
