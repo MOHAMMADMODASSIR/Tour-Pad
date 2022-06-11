@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.header-text {
+    color: #2e95a7;
+    font-weight: 500;
+    margin-top: 17px;
+    font-size: 17px;
+    /* border: 2px solid green; */
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.tag-card {
+    color: #806a78;
+    margin: 10px 0 0 20px;
+}
+
+.tourName {
+    color: "#F48FB1";
+    font-size: 18px;
+    margin: 0 0 0 4px;
+    font-weight: 500;
+}
+
+.tagErrMsg {
+    color: #f93154;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+h4 {
+    overflow: hidden;
+    text-align: center;
+}
+
+h4:before,
+h4:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+h4:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h4:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    background: rgb(65, 70, 93);
+    padding: 15px 23px;
+    color: black;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+footer span a {
+    color: white;
+    /* border: 2px solid red; */
+    text-decoration: none;
+}
+
+.foot {
+    font-size: 20px;
+}
+
+#ficon:hover {
+    /* color: green; */
+    /* border: 2px solid red; */
+    color: black;
+}
+
+.foot span a i {
+    /* border: 1px solid red; */
+    /* color: black; */
+    color: rgb(212, 132, 132);
+    padding: 5px 15px;
+    margin-top: -50px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.foot span a i:hover {
+    text-decoration: underline;
+}
+
+.name:hover {
+    text-decoration: underline;
+}
+
+
+/* #headicon {
+    border: 2px solid red;
+    padding: 0;
+    margin: 25px;
+} */
+
+#headicon:hover {
+    color: white;
+    /* background-color: green; */
+}
+
+html {
+    /* overflow: hidden; */
+    /* height: 100%; */
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    height: 100%;
+}
