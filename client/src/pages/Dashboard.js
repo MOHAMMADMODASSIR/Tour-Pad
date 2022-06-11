@@ -124,32 +124,6 @@ const Dashboard = () => {
 
         ))}
     </div>
-
-
-//       {userTours.length > 0 && (
-//         <>
-//           <hr style={{ maxWidth: "570px" }} />
-//         </>
-//       )}
-
-//           <MDBCardGroup key={item._id}>
-//             <MDBCard style={{ maxWidth: "600px" }} className="mt-2">
-//               <MDBRow className="g-0">
-//                 <MDBCol md="4">
-//                   <MDBCardImage
-                   
-//                   />
-//                 </MDBCol>
-                
-                    
-                    
-                      
-//                   </MDBCardBody>
-//                 </MDBCol>
-//               </MDBRow>
-//             </MDBCard>
-//           </MDBCardGroup>
-//         ))}
   );
 };
 
