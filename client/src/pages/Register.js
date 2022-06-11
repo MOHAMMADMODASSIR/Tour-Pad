@@ -42,7 +42,6 @@ const Register = () => {
     }
     if (password !== confirmPassword) {
         return toast.error("Confirm Password should match with Password");
-        // return toast.error("Confirm Password should match with Password");
     }
     if (email && password && firstName && lastName && confirmPassword) {
       dispatch(register({ formValue, navigate, toast }));
